@@ -1,0 +1,19 @@
+@font-face {
+    font-family: NeueHass;
+    src: url(../../public/fonts/NeueHaasDisplayBlack.ttf);
+}
+
+@font-face {
+    font-family: DecayWhite;
+    src: url(../../public/fonts/Decay-White-Std.otf);
+}
+
+.name-text {
+font-family: NeueHass;
+}
+
+.portfolio-text {
+    margin-top: -10px;
+    font-family: DecayWhite;
+
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: NeueHass;
+    src: url(../../public/fonts/NeueHaasDisplayBlack.ttf);
+}
+
+.text {
+    font-family: NeueHass;
+}

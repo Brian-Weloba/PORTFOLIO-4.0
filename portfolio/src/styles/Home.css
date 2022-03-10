@@ -9,11 +9,11 @@
 }
 
 .name-text {
-font-family: NeueHass;
+    font-family: NeueHass, sans-serif;
 }
 
 .portfolio-text {
     margin-top: -10px;
-    font-family: DecayWhite;
+    font-family: DecayWhite, serif;
 
 }

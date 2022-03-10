@@ -1,15 +1,15 @@
-import logo from "./logo.svg";
 import "./styles/App.css";
 import Home from "./components/Home";
-import LeftNavContainer from "./components/LeftNav";
+import SideNav from "./components/SideNav";
 
 function App() {
-  return (
-    <div className="App" style={{}}>
-      <LeftNavContainer />
-      <Home />
-    </div>
-  );
+    return (
+        <div className="App" style={{}}>
+            {/*<LeftNavContainer />*/}
+            <SideNav/>
+            <Home/>
+        </div>
+    );
 }
 
 export default App;

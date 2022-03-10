@@ -1,0 +1,174 @@
+
+@font-face {
+    font-family: NeueHass;
+    src: url(../../public/fonts/NeueHaasDisplayBlack.ttf);
+}
+
+@font-face {
+    font-family: DecayWhite;
+    src: url(../../public/fonts/Decay-White-Std.otf);
+}
+
+.menuCont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
+}
+
+.sideBar {
+    height: 100%;
+    width: 4rem;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #231f20;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 15%), 0 2px 2px rgb(0 0 0 / 15%), 0 4px 4px rgb(0 0 0 / 15%), 0 8px 8px rgb(0 0 0 / 15%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%), 0 2px 2px rgb(0 0 0 / 15%), 0 4px 4px rgb(0 0 0 / 15%), 0 8px 8px rgb(0 0 0 / 15%);
+}
+
+.hamburgerMenu {
+    cursor: pointer;
+    width: 2rem;
+    height: fit-content;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hamburgerLine {
+    border-top: 3px solid white;
+    width: 100%;
+}
+
+#ham1,
+#ham2 {
+    margin-bottom: 6px;
+}
+
+#ham2 {
+    width: 1.5rem;
+    margin-left: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.sideNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: relative;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    /* background-color: #4f6d5b; */
+    background-color: rgba(0, 0, 0, 0);
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    /*position: absolute;*/
+    /*top: 0;*/
+    right: 25px;
+    font-size: 36px;
+    /*margin-left: 50px;*/
+}
+
+.sideNav a {
+    padding: 20px 8px 20px 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff8dc;
+    opacity: 0.2;
+    display: block;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-family: 'NeueHass', sans-serif;
+}
+
+
+.sideNav a:hover {
+    transition: 0.25s;
+    color: #e64719;
+    margin-left: 5px;
+}
+
+.sidenavDiv {
+    opacity: 0.2;
+    border-left: 4px solid #fff8dc;
+    height: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.sidenavList {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+#item1 {
+    -webkit-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+#item2 {
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+#item3 {
+    -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+#item4 {
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+#item5 {
+    -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}

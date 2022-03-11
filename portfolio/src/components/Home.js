@@ -10,6 +10,7 @@ function Home() {
         alignItems: "center",
         height: "100vh",
         fontSize: "4rem",
+          paddingLeft: "5rem",
       }}
     >
       <div

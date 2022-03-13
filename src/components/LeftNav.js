@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 import React from "react";
 import "../styles/LeftNav.css";
 

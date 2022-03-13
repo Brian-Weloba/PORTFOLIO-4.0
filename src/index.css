@@ -1,5 +1,8 @@
+/*noinspection ALL,CssInvalidAtRule*/
 @tailwind base;
+/*noinspection ALL,CssInvalidAtRule*/
 @tailwind components;
+/*noinspection ALL,CssInvalidAtRule*/
 @tailwind utilities;
 
 body {

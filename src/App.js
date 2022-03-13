@@ -7,7 +7,11 @@ function App() {
         <div className="App" style={{}}>
             {/*<LeftNavContainer />*/}
             <SideNav/>
-            <Home/>
+            <div className="App-content">
+                <Home/>
+                <Home/>
+
+            </div>
         </div>
     );
 }

@@ -1,0 +1,31 @@
+.about {
+    width: 80%;
+    margin-left: 10rem;
+}
+
+.about h1 {
+    font-family: NeueHass, sans-serif;
+    font-size: 2.5rem;
+    color: #e64719;
+}
+
+.about p {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-family: DecayWhite, serif;
+    color: white;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 890px) {
+    .about {
+        width: 90%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .about {
+        width: 90%;
+        margin-left: 0;
+    }
+}

@@ -1,6 +1,7 @@
 import "./styles/App.css";
 import Home from "./components/Home";
 import SideNav from "./components/SideNav";
+import About from "./components/About";
 
 function App() {
     return (
@@ -9,8 +10,7 @@ function App() {
             <SideNav/>
             <div className="App-content">
                 <Home/>
-                <Home/>
-
+                <About/>
             </div>
         </div>
     );

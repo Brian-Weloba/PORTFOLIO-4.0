@@ -100,6 +100,16 @@
     font-family: 'NeueHass', sans-serif;
 }
 
+#item1:hover,
+#item2:hover,
+#item3:hover,
+#item4:hover,
+#item5:hover {
+    transition: 0.25s;
+    color: #e64719;
+    margin-left: 5px;
+}
+
 
 .sidenavDiv {
     opacity: 0.2;
